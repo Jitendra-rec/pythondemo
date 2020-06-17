@@ -1,7 +1,7 @@
 class student:
     def study(self):
         print('IN student class')
-        print('depends on teachers')
+        print('depends on teachers\n')
 class programer:
     def study(self):
         print('In programer class')
