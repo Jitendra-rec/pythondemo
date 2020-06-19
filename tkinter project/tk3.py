@@ -1,5 +1,4 @@
 from tkinter import *
-from PIL import ImageTk,Image
 sc=Tk()
 sc.geometry("360x360")
 pic=PhotoImage(file="1.png")
