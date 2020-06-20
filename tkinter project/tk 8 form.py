@@ -12,6 +12,7 @@ def getval():
     Label(a,text=l2.get()).grid()
 
 
+
 Label(a,text="Internship form",padx=80).grid(row=0,column=1)
 Label(a,text="NAME").grid(row=1,column=0)
 Label(a,text="GENDER").grid(row=2,column=0)
