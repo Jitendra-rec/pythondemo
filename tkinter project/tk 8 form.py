@@ -3,6 +3,8 @@ a=Tk()
 a.title("this is what u r lonking for")
 a.geometry('360x360')
 def getval():
+    with open("record.txt","a") as t:
+        t.write(f"DETAILS\nname={l1.get()}\ngender={l2.get()}\ncourse={l3.get()}\ncollage={l4.get()}\n\n")
     Label(a, text="\nDETAILS").grid()
     Label(a,text=l1.get()).grid()
     Label(a,text=l2.get()).grid()
