@@ -8,8 +8,8 @@ def getval():
     Label(text=f"passward={psw.get()}\n").grid()
 
 
-Label(a,text="   USERNAME   ").grid()
-Label(a,text="   PASSWORD   ").grid()
+Label(a,text="USERNAME").grid()
+Label(a,text="PASSWORD").grid()
 uid=StringVar()
 psw=StringVar()
 
